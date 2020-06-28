@@ -33,7 +33,7 @@ li.hiddenNav{
   background-color: #555;
   color: white;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -60,18 +60,24 @@ li.hiddenNav{
   .timeTableClass th{
     width: 20px;
   }
-  .aboutsection2 .subsection {
-    width: 64%;
-}
 }
 @media print, screen and (max-width: 1024px){
   .aboutsection2 .subsection{
-    width: 27%;
+    width: 61%;
   }
   #myBtn{
     right: 47px;
   }
 
+}
+
+@media screen
+ and (max-width: 768px)
+ and (min-width: 400px)
+{
+  .aboutsection2 .subsection{
+    width: 62%;
+  }
 }
 @media print, screen and (max-width: 768px) {
   .sidebar {
@@ -96,9 +102,7 @@ li.hiddenNav{
   .openClose {
     padding-top: 20px;
   }
-  .aboutsection2 .subsection{
-    width: 32%;
-  }
+
 }
 .bodyPart .maincontent p.header{
     background: black;
