@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/popper.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <title>My Website</title>
+  </head>
+  <body onload="defaultPage()">
+    <div class="container">
+      <div class="topnav navMenu">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <a class="navbar-brand" href="#"> <img src="img/logo1.png" alt="" width="107px" height="40px"> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navCol" id="collapsibleNavbar">
+            <ul class="navbar-nav topNavbar">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutMe.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="timeTable.html">Time-Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="japnease.html">Japnease Study</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jsworld.html">JSWorld</a>
+              </li>
+              <li class="nav-item hiddenNav">
+                <a class="nav-link" href="#navmenu">Close</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="bodyPart">
+        <div class="sidebar">
+          <a class="active" href="index.html">Introduction</a>
+          <a href="aboutMe.html">About Me</a>
+          <a href="timeTable.html">Time-Table</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="japnease.html">Japnease Study</a>
+          <a href="jsworld.html">JSWorld</a>
+        </div>
+        <div class="maincontent col align-self-center" id="maincontent">
+          <!-- Carasoul Starts-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="images"  src="img/carousel/1.jfif" alt="First slide">
+                <div class="carousel-caption">
+                  <h2>&#8220;Nature always wears the colors of the spirit.&#8221;</h2>
+                  <p>......Ralph Waldo Emerson......</p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img class="images" src="img/carousel/2.jfif" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                <h2>&#8220;By discovering nature, you discover yourself.&#8221;</h2>
+                <p>......Maxime Lagacé......</p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img class="images"  src="img/carousel/3.jfif" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                <h2>&#8220;Nature is pleased with simplicity. And nature is no dummy.&#8221;</h2>
+                <p>......Isaac Newton......</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- Carasoul Ends -->
+        </div>
+      </div>
+      <div class="footer">
+        <p>&#169; Copyright By Budha Devendra</p>
+      </div>
+    </div>
+    <br>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

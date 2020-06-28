@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery.min.js" charset="utf-8"></script>
+  <script src="js/popper.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <title>My Website</title>
+  </head>
+  <body onload="defaultPage()">
+    <div class="container">
+      <div class="topnav navMenu" id="navMenu">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <a class="navbar-brand" href="#"> <img src="img/logo1.png" alt="" width="107px" height="40px"> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navCol" id="collapsibleNavbar">
+            <ul class="navbar-nav topNavbar">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutMe.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="timeTable.html">Time-Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="japnease.html">Japnease Study</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jsworld.html">JSWorld</a>
+              </li>
+              <li class="nav-item hiddenNav">
+                <a class="nav-link" href="#navMenu">Close</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="bodyPart">
+        <div class="sidebar">
+          <a href="index.html">Introduction</a>
+          <a href="aboutMe.html">About Me</a>
+          <a class="active" href="timeTable.html">Time-Table</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="japnease.html">Japnease Study</a>
+          <a href="jsworld.html">JSWorld</a>
+        </div>
+        <div class="maincontent col align-self-center" id="maincontent">
+`         <div class="timeTableTitle">
+            <h2>My Class Schedule</h2>
+          </div>
+          <hr class="line">
+
+          <table class="table table-hover table-dark table-responsive timeTableClass">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Object Oriented Programming</th>
+                <td></td>
+                <td></td>
+                <td class="bg-primary">9:30am-12:40am</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Project Foundation</th>
+                <td></td>
+                <td></td>
+                <td class="bg-primary">4:40pm-6:20pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Web Programming 2</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="bg-primary">11:30am-12:40pm</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Leadership Theory</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="bg-primary">4:40pm-6:20pm</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Web Programming 3</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="bg-primary">6:30pm-9:40pm</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>`
+        </div>
+      </div>
+      <div class="footer">
+        <p>&#169; Copyright By Budha Devendra</p>
+      </div>
+    </div>
+    <br>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
