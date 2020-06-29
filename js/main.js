@@ -53,7 +53,7 @@ var myWindow;
 
 
 function openWin() {
-  myWindow = window.open("https://www.youtube.com", "myWindow", "width=500, height=400");
+  myWindow = window.open("jsworld.html", "myWindow", "width=500, height=400");
 }
 
 function closeWin() {
@@ -63,8 +63,7 @@ function closeWin() {
 // Move window
 var win;
 function openMoveWindow() {
-  win = window.open("", "win", "width=200, height=100");
-  win.document.write("<p>'Moving Window'</p>");
+  win = window.open("jsworld.html", "win", "width=300, height=250");
 }
 
 function moveWindow() {
@@ -79,11 +78,11 @@ function closeWindow(){
 //Resize By window
 var rwindow;
 function openResizeWindow() {
-  rwindow = window.open("", "Resizing Window", "width=100, height=100");
+  rwindow = window.open("jsworld.html", "Resizing Window", "width=300, height=250");
 }
 
 function resizeWindow() {
-  rwindow.resizeBy(250, 250);
+  rwindow.resizeBy(400, 4000);
   rwindow.focus();
 }
 function closeResizeWindow(){
