@@ -41,10 +41,10 @@ function languageLearned(form1){
 //   $("#maincontent").load(url);
 //   return false;
 // });
-//
-// // LoADING deffault page home.html
+
+// LoADING deffault page home.html
 // function defaultPage(){
-//   let url="partials/home.html";
+//   let url="jsworld.html";
 //   $("#maincontent").load(url);
 // }
 
